@@ -15,8 +15,8 @@ hops = hs.Hops(app)
     inputs=[
         hs.HopsCurve("Count", "C", "Number of Random Points", hs.HopsParamAccess.ITEM),
         hs.HopsNumber("X range of randomness", "X", "Value of motion in X direction", hs.HopsParamAccess.ITEM),
-        hs.HopsNumber("Y range of randomness", "Y", "Value of motion in X direction", hs.HopsParamAccess.ITEM),
-        hs.HopsNumber("Z range of randomness", "Z", "Value of motion in X direction", hs.HopsParamAccess.ITEM)
+        hs.HopsNumber("Y range of randomness", "Y", "Value of motion in Y direction", hs.HopsParamAccess.ITEM),
+        hs.HopsNumber("Z range of randomness", "Z", "Value of motion in Z direction", hs.HopsParamAccess.ITEM)
 
     ],
     outputs=[
