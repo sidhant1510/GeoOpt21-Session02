@@ -9,7 +9,7 @@ def createGridGraph(x, y):
 
 def addRandomWeigrhs(G):
 
-    NG = nx.Graph()
+    NG = nx.MultiGraph()
     for u,v,data in G.edges(data=True):
         #w = data['weight'] if 'weight' in data else 1.0
         w = random.randint(1,10)
